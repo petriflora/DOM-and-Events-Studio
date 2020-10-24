@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
         <title>Flight Simulator</title>
         <link rel = "stylesheet" type = "text/css" href = "styles.css" />
         <script src = "scripts.js"></script>
     </head>
     <body>
-        <div style="text-align: center;>
+        <div style="text-align: center";>
             <h1>Flight Simulator</h1>
             <h2>Current Flight Status</h2>
             <p id = "flightStatus">Space shuttle ready for takeoff</p>
             <h2>Shuttle Trajectory</h2>
         </div>
-        <div style="text-align: center; height: 400px; width: 100%" >
+        <div style="text-align: center; height: 400px; width: 100%; position: relative;" >
             <div style="text-align: center; display: inline-block; bottom: 0">
                 <h3>Fuel Levels</h3>
                 <p>Tank Full</p>
@@ -20,9 +21,9 @@
                 <p>Houston, we are ready when you are!</p>
             </div>
             <div id = "shuttleBackground" style = "position: relative;">
-                <img src = "LaunchCode_rocketline_white.png" height = "75" width = "75" id = "rocket"/>
+                <img src = "LaunchCode_rocketline_white.png" height = "75" width = "75" style = "position: absolute;" id = "rocket"/>
             </div>
-            <div style = "text-align: center; display: inline-block;">
+            <div style = "text-align: center; display: inline-block; position: relative;">
                     <button id = "up">Up</button>
                     <button id = "down">Down</button>
                     <button id = "right">Right</button>

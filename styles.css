@@ -1,10 +1,7 @@
 #shuttleBackground {
     background-color: #008000;
     display: inline-block;
-    height: 80%;
-    width: 40%;
+    height: 300px;
+    width: 600px;
 }
 
-/* #rocket {
-    bottom: auto;
-} */
